@@ -12,7 +12,7 @@ public class Main extends Application
 	@Override
 	public void start(Stage primaryStage) 
 	{
-		String FILE = "file:///Users/garyhealy/Desktop/robRian.mp4";
+		String FILE = "file:///Users/garyhealy/Desktop/robRian.mp4"; //Leave hardcoded for testing purposes
 		Player player = new Player(FILE);
 		Scene scene = new Scene(player, 620, 527, Color.BLACK);
 		primaryStage.setScene(scene);
